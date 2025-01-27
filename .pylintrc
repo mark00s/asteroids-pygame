@@ -307,9 +307,6 @@ max-locals=15
 # Maximum number of parents for a class (see R0901).
 max-parents=7
 
-# Maximum number of positional arguments for function / method.
-max-positional-arguments=5
-
 # Maximum number of public methods for a class (see R0904).
 max-public-methods=20
 
@@ -440,7 +437,8 @@ disable=raw-checker-failed,
         use-implicit-booleaness-not-comparison-to-zero,
         use-symbolic-message-instead,
         missing-class-docstring,
-        missing-module-docstring
+        missing-module-docstring,
+        missing-function-docstring
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
